@@ -14,45 +14,25 @@ import java.security.NoSuchAlgorithmException;
 public class Hash { 
 	
 	
-	public static BigInteger hashOf(String entity) {	
-		
-		BigInteger hashint = null;
-		
-		// Task: Hash a given string using MD5 and return the result as a BigInteger.
-		
-		// we use MD5 with 128 bits digest
-		
-		// compute the hash of the input 'entity'
-		
-		// convert the hash into hex format
-		
-		// convert the hex into BigInteger
-		
-		// return the BigInteger
-		
-		return hashint;
+	public static BigInteger hashOf(String entity) {
+		try {
+			MessageDigest md = MessageDigest.getInstance("MD5");
+			byte[] digest = md.digest(entity.getBytes("UTF-8"));
+			String hex = toHex(digest);
+			return new BigInteger(hex, 16);
+		} catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 	
 	public static BigInteger addressSize() {
-		
-		// Task: compute the address size of MD5
-		
-		// compute the number of bits = bitSize()
-		
-		// compute the address size = 2 ^ number of bits
-		
-		// return the address size
-		
-		return null;
+		return BigInteger.valueOf(2).pow(bitSize());
 	}
 	
 	public static int bitSize() {
-		
-		int digestlen = 0;
-		
-		// find the digest length
-		
-		return digestlen*8;
+		int digestlen = 16;  // 128 bits = 16 bytes
+		return digestlen * 8;
 	}
 	
 	public static String toHex(byte[] digest) {
