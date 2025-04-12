@@ -15,7 +15,7 @@
     <property name="user.country" value="NO"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\liver\AppData\Local\Temp\surefire12088640642063287456\surefirebooter-20250410005456594_3.jar C:\Users\liver\AppData\Local\Temp\surefire12088640642063287456 2025-04-10T00-54-56_255-jvmRun1 surefire-20250410005456594_1tmp surefire_0-20250410005456594_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\liver\AppData\Local\Temp\surefire16000253319611519710\surefirebooter-20250410230032555_3.jar C:\Users\liver\AppData\Local\Temp\surefire16000253319611519710 2025-04-10T23-00-32_167-jvmRun1 surefire-20250410230032555_1tmp surefire_0-20250410230032555_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="no.hvl.dat110.unit.tests.TestCheckInterval"/>
     <property name="surefire.test.class.path" value="C:\Users\liver\Documents\GitHub\DAT110\dat110oblig3\target\test-classes;C:\Users\liver\Documents\GitHub\DAT110\dat110oblig3\target\classes;C:\Users\liver\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\liver\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\liver\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\liver\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\liver\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\liver\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\liver\AppData\Local\Temp\surefire12088640642063287456\surefirebooter-20250410005456594_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\liver\AppData\Local\Temp\surefire16000253319611519710\surefirebooter-20250410230032555_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestCheckInterval" time="0.034"/>
+  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestCheckInterval" time="0.035"/>
 </testsuite>
